@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>****** SMP</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #22c55e;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #020617, var(--bg));
+      color: var(--text);
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 1rem auto 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .info-box {
+      background: #020617;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .value {
+      font-size: 1.1rem;
+      margin-top: 0.25rem;
+      word-break: break-all;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .highlight {
+      color: var(--accent);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>****** SMP</h1>
+    <p>
+      ****** SMP is a vanilla SMP with minimal datapacks & mods. It is a content-focused server mainly for building or whatever you prefer. Making videos and/or streaming is advised.
+    </p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Server Info</h2>
+      <div class="info-grid">
+        <div class="info-box">
+          <div class="label">IP Address</div>
+          <div class="value highlight">******.mc.gg</div>
+        </div>
+        <div class="info-box">
+          <div class="label">Version</div>
+          <div class="value">Latest Vanilla (Java Edition)</div>
+        </div>
+        <div class="info-box">
+          <div class="label">Whitelist</div>
+          <div class="value">Required</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Datapacks & Mods</h2>
+      <ul>
+        <li>Elytra rocket boosting is <strong>disabled</strong></li>
+        <li>Phantoms are <strong>disabled</strong></li>
+        <li>Players & mobs drop their <strong>heads</strong></li>
+        <li>Happy Ghasts fly <strong>2× faster</strong></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Rules</h2>
+      <ol>
+        <li>
+          No mods or resource packs that provide an unfair advantage unless permitted by the owner. Use common sense. If unsure, ask. Examples include X-Ray, Fly hacks, Autocrit, KillAura, Aimbot, and Player tracking.
+        </li>
+        <li>
+          No griefing. If damage takes the owner over 5 minutes to fix, it is considered griefing. If enough people (including the owner) agree a build is ugly, it may be demolished. The owner cannot intentionally take over 5 minutes to fix obvious non-griefing damage.
+        </li>
+        <li>
+          No duplication glitches, excluding lit TNT duping. This includes gravity block duping, tripwire hook duping, carpet duping, or any other dupe glitch.
+        </li>
+        <li>
+          Be respectful. Do not use derogatory words or slurs in Minecraft or Discord chats.
+        </li>
+        <li>
+          No destructive devices such as lag machines, chunk bans, or similar exploits.
+        </li>
+      </ol>
+      <p><strong>Recording is advised</strong> so if you catch someone breaking the rules, you can easily report them.</p>
+    </section>
+  </main>
+
+  <footer>
+    © ****** SMP • Vanilla • Content-Focused
+  </footer>
+
+</body>
+</html>
